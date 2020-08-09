@@ -1,4 +1,5 @@
 import { uuid } from 'uuidv4';
+import TransactionsRepository from '../repositories/TransactionsRepository';
 
 class Transaction {
   id: string;
